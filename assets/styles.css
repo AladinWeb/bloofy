@@ -1,5 +1,8 @@
 body {
-    background-color: white;
+    background-image: url('/images/bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: black;
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -277,4 +280,5 @@ body {
         max-width: 100%;
         height: auto;
     }
+
 }
