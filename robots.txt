@@ -2,3 +2,4 @@ User-agent: *
 Disallow:
 
 Sitemap: https://bloofy.net/sitemap.xml
+LLMS: https://bloofy.net/llms.txt
