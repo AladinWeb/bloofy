@@ -1,116 +1,116 @@
 function updateMetaTags(category = '', subcategory = '') {
     const metaData = {
         'main': {
-            title: 'Bloofy: Laugh-Out-Loud Humor & Wit',
-            description: 'Discover Bloofy’s hilarious takes on tech, fashion, cars, travel, and food. Get ready to laugh in 2025!'
+            title: 'Bloofy: Hilarious Takes on Tech, Fashion & More in 2025',
+            description: 'Laugh out loud with Bloofy’s witty 2025 takes on tech, fashion, cars, travel, and food. Discover humor like never before!'
         },
         'technology': {
-            title: 'Tech Humor on Bloofy',
-            description: 'Giggle at the latest tech trends and gadgets with Bloofy’s witty 2025 insights.',
+            title: 'Tech Jokes & Gadget Giggles on Bloofy for 2025',
+            description: 'Get ready to chuckle at 2025’s tech trends and gadgets with Bloofy’s sharp humor and witty insights. Laughs guaranteed!',
             subtopics: {
                 'best-specs-of-cellphones-2025': {
-                    title: 'Top Cellphone Specs 2025',
-                    description: 'Laugh at 2025’s wildest cellphone specs with Bloofy’s funny take.'
+                    title: 'Funny Cellphone Specs to Crack Up in 2025',
+                    description: 'Bloofy’s hilarious take on 2025’s wildest cellphone specs will leave you in stitches. Tech humor at its finest!'
                 },
                 'smart-home-gadgets-2025': {
-                    title: 'Smart Home Giggles 2025',
-                    description: 'Explore 2025’s quirky smart home gadgets with Bloofy’s humor.'
+                    title: 'Smart Home Gear Laughs for 2025 Fun',
+                    description: 'Explore 2025’s quirky smart home gadgets with Bloofy’s side-splitting humor. Get ready for techy laughs!'
                 },
                 'ai-assistant-fails-2025': {
-                    title: 'AI Fails to Crack You Up',
-                    description: 'Chuckling at AI assistant blunders? Bloofy’s got the best for 2025!'
+                    title: 'AI Assistant Blunders to Laugh at in 2025',
+                    description: 'Bloofy’s got the funniest 2025 AI assistant fails. Chuckle at tech gone wrong with our witty insights!'
                 },
                 'vr-gaming-trends-2025': {
-                    title: 'VR Gaming Laughs 2025',
-                    description: 'Dive into 2025 VR gaming trends with Bloofy’s hilarious spin.'
+                    title: 'VR Gaming Trends for 2025 Laughs',
+                    description: 'Dive into 2025’s VR gaming trends with Bloofy’s hilarious spin. Laugh at the future of gaming with us!'
                 }
             }
         },
         'fashion': {
-            title: 'Fashion Funnies on Bloofy',
-            description: 'Stay stylish and amused with Bloofy’s 2025 fashion humor.',
+            title: 'Fashion Funnies & Style Jokes on Bloofy 2025',
+            description: 'Stay stylish and amused with Bloofy’s 2025 fashion humor. Laugh at trends and flops with our witty takes!',
             subtopics: {
                 'weird-fashion-trends-2025': {
-                    title: 'Odd Fashion Trends 2025',
-                    description: 'Weird 2025 fashion trends? Bloofy makes them hilarious!'
+                    title: 'Weird 2025 Fashion Trends to Laugh About',
+                    description: 'Bloofy makes 2025’s oddest fashion trends hilarious. Chuckle at quirky styles with our funny insights!'
                 },
                 'sustainable-fashion-2025': {
-                    title: 'Green Fashion Jokes 2025',
-                    description: 'Eco-fashion gets funny with Bloofy’s 2025 sustainable style quips.'
+                    title: 'Green Fashion Jokes for 2025 Chuckles',
+                    description: 'Eco-fashion gets a funny twist with Bloofy’s 2025 sustainable style quips. Laugh at green trends now!'
                 },
                 'celebrity-style-fails-2025': {
-                    title: 'Celeb Style Mishaps 2025',
-                    description: 'Laugh at 2025’s celebrity fashion flops with Bloofy’s wit.'
+                    title: 'Celeb Fashion Flops to Giggle at in 2025',
+                    description: 'Bloofy’s witty take on 2025’s celebrity style fails will have you laughing. Star-studded humor awaits!'
                 },
                 'diy-fashion-hacks-2025': {
-                    title: 'DIY Fashion Humor 2025',
-                    description: 'Clever 2025 DIY fashion hacks, served with Bloofy’s humor.'
+                    title: 'DIY Fashion Hacks for 2025 Laughs',
+                    description: 'Bloofy’s 2025 DIY fashion hacks are packed with humor. Laugh at clever style tips with our wit!'
                 }
             }
         },
         'cars': {
-            title: 'Car Comedy with Bloofy',
-            description: 'Rev up for laughs with Bloofy’s 2025 car humor and stories.',
+            title: 'Car Comedy & Auto Jokes on Bloofy 2025',
+            description: 'Rev up for laughs with Bloofy’s 2025 car humor. From fails to innovations, our witty takes deliver!',
             subtopics: {
                 'funniest-car-fails-2025': {
-                    title: 'Epic Car Fails 2025',
-                    description: 'Bloofy’s take on 2025’s funniest car mishaps will leave you in stitches.'
+                    title: 'Funniest 2025 Car Fails to Crack You Up',
+                    description: 'Bloofy’s take on 2025’s epic car fails will leave you in stitches. Laugh at auto mishaps with us!'
                 },
                 'electric-car-innovations-2025': {
-                    title: 'Electric Car Chuckles 2025',
-                    description: '2025 electric car innovations, hilariously reviewed by Bloofy.'
+                    title: 'Electric Car Jokes for 2025 Fun',
+                    description: 'Bloofy’s hilarious 2025 electric car innovations will spark laughs. Charge up for auto humor now!'
                 },
                 'car-sharing-disasters-2025': {
-                    title: 'Car-Sharing Fiascos 2025',
-                    description: 'Car-sharing gone wrong? Bloofy’s 2025 tales are a riot!'
+                    title: 'Car-Sharing Fiascos to Laugh at in 2025',
+                    description: 'Bloofy’s 2025 car-sharing disasters are comedy gold. Chuckle at ride-share fails with our wit!'
                 },
                 'autonomous-car-adventures-2025': {
-                    title: 'Self-Driving Car Laughs',
-                    description: 'Autonomous cars in 2025 get Bloofy’s funny treatment.'
+                    title: 'Self-Driving Car Laughs for 2025',
+                    description: 'Autonomous cars in 2025? Bloofy’s funny take on self-driving adventures will make you laugh!'
                 }
             }
         },
         'travel': {
-            title: 'Travel Tales on Bloofy',
-            description: 'Jet-set with laughs via Bloofy’s 2025 travel humor and tips.',
+            title: 'Travel Humor & Trip Tales on Bloofy 2025',
+            description: 'Jet-set with laughs via Bloofy’s 2025 travel humor. Mishaps and tips get our witty spin for fun!',
             subtopics: {
                 'wildest-travel-mishaps-2025': {
-                    title: 'Crazy Travel Mishaps 2025',
-                    description: 'Bloofy shares 2025’s wildest travel blunders for big laughs.'
+                    title: 'Wild 2025 Travel Mishaps to Laugh About',
+                    description: 'Bloofy’s 2025 travel blunders are hilarious. Chuckle at the wildest trip fails with our humor!'
                 },
                 'smart-travel-gadgets-2025': {
-                    title: 'Travel Gadget Giggles',
-                    description: '2025’s smart travel gear, roasted by Bloofy’s humor.'
+                    title: 'Smart Travel Gear Jokes for 2025',
+                    description: 'Bloofy roasts 2025’s smart travel gadgets with humor. Laugh at clever trip tools with our wit!'
                 },
                 'bizarre-destination-trends-2025': {
-                    title: 'Odd Destinations 2025',
-                    description: 'Weird 2025 travel spots get Bloofy’s hilarious spin.'
+                    title: 'Odd 2025 Travel Spots for Chuckles',
+                    description: 'Weird 2025 destinations? Bloofy’s hilarious spin on bizarre travel trends will make you laugh!'
                 },
                 'solo-travel-trends-2025': {
-                    title: 'Solo Travel Humor 2025',
-                    description: 'Solo travel in 2025? Bloofy’s got the funniest tips.'
+                    title: 'Solo Travel Humor for 2025 Fun',
+                    description: 'Bloofy’s 2025 solo travel trends are packed with laughs. Chuckle at lone trip tips with us!'
                 }
             }
         },
         'food': {
-            title: 'Food Funnies on Bloofy',
-            description: 'Savor the laughs with Bloofy’s 2025 food humor and recipes.',
+            title: 'Food Humor & Tasty Jokes on Bloofy 2025',
+            description: 'Savor laughs with Bloofy’s 2025 food humor. Recipes and fails get our funny twist for fun!',
             subtopics: {
                 'weird-food-trends-2025': {
-                    title: 'Wacky Food Trends 2025',
-                    description: 'Bloofy dives into 2025’s strangest food trends with humor.'
+                    title: 'Wacky 2025 Food Trends to Laugh At',
+                    description: 'Bloofy’s take on 2025’s strangest food trends is hilarious. Chuckle at weird eats with us!'
                 },
                 'smart-kitchen-gadgets-2025': {
-                    title: 'Kitchen Gadget Laughs',
-                    description: '2025’s smart kitchen tools, mocked by Bloofy’s wit.'
+                    title: 'Kitchen Gadget Jokes for 2025 Fun',
+                    description: 'Bloofy mocks 2025’s smart kitchen tools with wit. Laugh at culinary gadgets with our humor!'
                 },
                 'viral-food-fails-2025': {
-                    title: 'Viral Food Flops 2025',
-                    description: 'Bloofy’s take on 2025’s viral food fails is pure comedy.'
+                    title: 'Viral 2025 Food Flops to Crack Up',
+                    description: 'Bloofy’s 2025 viral food fails are comedy gold. Laugh at kitchen disasters with our wit!'
                 },
                 'plant-based-food-craze-2025': {
-                    title: 'Plant-Based Food Fun',
-                    description: '2025’s plant-based craze gets Bloofy’s hilarious twist.'
+                    title: 'Plant-Based Food Fun for 2025',
+                    description: 'Bloofy’s hilarious twist on 2025’s plant-based food craze will make you laugh. Vegan fun!'
                 }
             }
         }
