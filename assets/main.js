@@ -1,56 +1,133 @@
 function updateMetaTags(category = '', subcategory = '') {
-    const categoryTitles = {
-        'technology': 'Tech Laughs',
-        'fashion': 'Fashion Funnies',
-        'cars': 'Car Comedy',
-        'travel': 'Travel Tales',
-        'food': 'Happy Meal'
-    };
-    const subTopics = {
+    const metaData = {
+        'main': {
+            title: 'Bloofy: Laugh-Out-Loud Humor & Wit',
+            description: 'Discover Bloofy’s hilarious takes on tech, fashion, cars, travel, and food. Get ready to laugh in 2025!'
+        },
         'technology': {
-            'best-specs-of-cellphones-2025': 'Best Cellphone Specs to Laugh About in 2025',
-            'smart-home-gadgets-2025': 'Hilarious Smart Home Gadgets for 2025',
-            'ai-assistant-fails-2025': 'Funny AI Assistant Fails in 2025',
-            'vr-gaming-trends-2025': 'VR Gaming Trends That’ll Make You Laugh in 2025'
+            title: 'Tech Humor on Bloofy',
+            description: 'Giggle at the latest tech trends and gadgets with Bloofy’s witty 2025 insights.',
+            subtopics: {
+                'best-specs-of-cellphones-2025': {
+                    title: 'Top Cellphone Specs 2025',
+                    description: 'Laugh at 2025’s wildest cellphone specs with Bloofy’s funny take.'
+                },
+                'smart-home-gadgets-2025': {
+                    title: 'Smart Home Giggles 2025',
+                    description: 'Explore 2025’s quirky smart home gadgets with Bloofy’s humor.'
+                },
+                'ai-assistant-fails-2025': {
+                    title: 'AI Fails to Crack You Up',
+                    description: 'Chuckling at AI assistant blunders? Bloofy’s got the best for 2025!'
+                },
+                'vr-gaming-trends-2025': {
+                    title: 'VR Gaming Laughs 2025',
+                    description: 'Dive into 2025 VR gaming trends with Bloofy’s hilarious spin.'
+                }
+            }
         },
         'fashion': {
-            'weird-fashion-trends-2025': 'Weird Fashion Trends to Chuckle at in 2025',
-            'sustainable-fashion-2025': 'Sustainable Fashion Funnies for 2025',
-            'celebrity-style-fails-2025': 'Celebrity Style Fails to Laugh at in 2025',
-            'diy-fashion-hacks-2025': 'DIY Fashion Hacks That Are Hilarious in 2025'
+            title: 'Fashion Funnies on Bloofy',
+            description: 'Stay stylish and amused with Bloofy’s 2025 fashion humor.',
+            subtopics: {
+                'weird-fashion-trends-2025': {
+                    title: 'Odd Fashion Trends 2025',
+                    description: 'Weird 2025 fashion trends? Bloofy makes them hilarious!'
+                },
+                'sustainable-fashion-2025': {
+                    title: 'Green Fashion Jokes 2025',
+                    description: 'Eco-fashion gets funny with Bloofy’s 2025 sustainable style quips.'
+                },
+                'celebrity-style-fails-2025': {
+                    title: 'Celeb Style Mishaps 2025',
+                    description: 'Laugh at 2025’s celebrity fashion flops with Bloofy’s wit.'
+                },
+                'diy-fashion-hacks-2025': {
+                    title: 'DIY Fashion Humor 2025',
+                    description: 'Clever 2025 DIY fashion hacks, served with Bloofy’s humor.'
+                }
+            }
         },
         'cars': {
-            'funniest-car-fails-2025': 'Funniest Car Fails of 2025',
-            'electric-car-innovations-2025': 'Electric Car Innovations to Laugh About in 2025',
-            'car-sharing-disasters-2025': 'Car-Sharing Disasters That Are Funny in 2025',
-            'autonomous-car-adventures-2025': 'Autonomous Car Adventures for Laughs in 2025'
+            title: 'Car Comedy with Bloofy',
+            description: 'Rev up for laughs with Bloofy’s 2025 car humor and stories.',
+            subtopics: {
+                'funniest-car-fails-2025': {
+                    title: 'Epic Car Fails 2025',
+                    description: 'Bloofy’s take on 2025’s funniest car mishaps will leave you in stitches.'
+                },
+                'electric-car-innovations-2025': {
+                    title: 'Electric Car Chuckles 2025',
+                    description: '2025 electric car innovations, hilariously reviewed by Bloofy.'
+                },
+                'car-sharing-disasters-2025': {
+                    title: 'Car-Sharing Fiascos 2025',
+                    description: 'Car-sharing gone wrong? Bloofy’s 2025 tales are a riot!'
+                },
+                'autonomous-car-adventures-2025': {
+                    title: 'Self-Driving Car Laughs',
+                    description: 'Autonomous cars in 2025 get Bloofy’s funny treatment.'
+                }
+            }
         },
         'travel': {
-            'wildest-travel-mishaps-2025': 'Wildest Travel Mishaps to Laugh at in 2025',
-            'smart-travel-gadgets-2025': 'Smart Travel Gadgets That Are Funny in 2025',
-            'bizarre-destination-trends-2025': 'Bizarre Destination Trends for 2025',
-            'solo-travel-trends-2025': 'Solo Travel Trends to Chuckle at in 2025'
+            title: 'Travel Tales on Bloofy',
+            description: 'Jet-set with laughs via Bloofy’s 2025 travel humor and tips.',
+            subtopics: {
+                'wildest-travel-mishaps-2025': {
+                    title: 'Crazy Travel Mishaps 2025',
+                    description: 'Bloofy shares 2025’s wildest travel blunders for big laughs.'
+                },
+                'smart-travel-gadgets-2025': {
+                    title: 'Travel Gadget Giggles',
+                    description: '2025’s smart travel gear, roasted by Bloofy’s humor.'
+                },
+                'bizarre-destination-trends-2025': {
+                    title: 'Odd Destinations 2025',
+                    description: 'Weird 2025 travel spots get Bloofy’s hilarious spin.'
+                },
+                'solo-travel-trends-2025': {
+                    title: 'Solo Travel Humor 2025',
+                    description: 'Solo travel in 2025? Bloofy’s got the funniest tips.'
+                }
+            }
         },
         'food': {
-            'weird-food-trends-2025': 'Weird Food Trends to Laugh About in 2025',
-            'smart-kitchen-gadgets-2025': 'Smart Kitchen Gadgets for 2025 Funnies',
-            'viral-food-fails-2025': 'Viral Food Fails That Are Hilarious in 2025',
-            'plant-based-food-craze-2025': 'Plant-Based Food Craze to Laugh at in 2025'
+            title: 'Food Funnies on Bloofy',
+            description: 'Savor the laughs with Bloofy’s 2025 food humor and recipes.',
+            subtopics: {
+                'weird-food-trends-2025': {
+                    title: 'Wacky Food Trends 2025',
+                    description: 'Bloofy dives into 2025’s strangest food trends with humor.'
+                },
+                'smart-kitchen-gadgets-2025': {
+                    title: 'Kitchen Gadget Laughs',
+                    description: '2025’s smart kitchen tools, mocked by Bloofy’s wit.'
+                },
+                'viral-food-fails-2025': {
+                    title: 'Viral Food Flops 2025',
+                    description: 'Bloofy’s take on 2025’s viral food fails is pure comedy.'
+                },
+                'plant-based-food-craze-2025': {
+                    title: 'Plant-Based Food Fun',
+                    description: '2025’s plant-based craze gets Bloofy’s hilarious twist.'
+                }
+            }
         }
     };
 
-    let title = 'Bloofy - Hilarious Takes';
-    let description = 'Explore Bloofy for the funniest insights on various topics. Laugh out loud with our unique humor!';
+    let title = metaData.main.title;
+    let description = metaData.main.description;
     let canonicalUrl = 'https://bloofy.net';
 
-    if (category) {
-        title = categoryTitles[category] || 'Various Topics';
-        description = `Dive into the funniest ${categoryTitles[category] || 'content'} on Bloofy for 2025!`;
+    if (category && metaData[category]) {
+        title = metaData[category].title;
+        description = metaData[category].description;
         canonicalUrl = `https://bloofy.net/?${category}`;
 
-        if (subcategory && subTopics[category] && subTopics[category][subcategory]) {
-            title = subTopics[category][subcategory];
-            description = subTopics[category][subcategory];
+        if (subcategory && metaData[category].subtopics && metaData[category].subtopics[subcategory]) {
+            title = metaData[category].subtopics[subcategory].title;
+            description = metaData[category].subtopics[subcategory].description;
             canonicalUrl = `https://bloofy.net/?${category}#${subcategory}`;
         }
     }
