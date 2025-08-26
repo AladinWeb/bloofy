@@ -21,7 +21,7 @@ function updateMetaTags(category = '', subcategory = '') {
                     description: 'Bloofy’s got the funniest 2025 AI assistant fails. Chuckle at tech gone wrong with our witty insights!'
                 },
                 'vr-gaming-trends-2025': {
-                    title: 'VR Gaming Trends for 2025 Laughs',
+                    title: 'VR Gaming Trends 2025: Hilarious Future of Play',
                     description: 'Dive into 2025’s VR gaming trends with Bloofy’s hilarious spin. Laugh at the future of gaming with us!'
                 }
             }
