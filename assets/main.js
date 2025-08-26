@@ -1,45 +1,53 @@
-function updateMetaTags(category = '') {
-    const baseTitle = 'Bloofy - Hilarious Takes';
-    let title = baseTitle;
+function updateMetaTags(category = '', subcategory = '') {
+    const categoryTitles = {
+        'technology': 'Tech Laughs',
+        'fashion': 'Fashion Funnies',
+        'cars': 'Car Comedy',
+        'travel': 'Travel Tales',
+        'food': 'Happy Meal'
+    };
+    const subTopics = {
+        'technology': {
+            'gadgets': 'Hilarious Gadget Reviews for 2025',
+            'software': 'Funny Software Insights for 2025',
+            'ai': 'Laugh at AI Developments for 2025'
+        },
+        'fashion': {
+            'trends': 'Funny Fashion Trends for 2025',
+            'accessories': 'Hilarious Accessory Tips for 2025',
+            'designer': 'Laugh at Designer Fashion for 2025'
+        },
+        'cars': {
+            'sports': 'Funny Sports Car Stories for 2025',
+            'electric': 'Hilarious Electric Car Insights for 2025',
+            'vintage': 'Laugh at Vintage Cars for 2025'
+        },
+        'travel': {
+            'destinations': 'Funny Travel Destinations for 2025',
+            'tips': 'Hilarious Travel Tips for 2025',
+            'adventures': 'Laugh at Travel Adventures for 2025'
+        },
+        'food': {
+            'recipes': 'Funny Food Recipes for 2025',
+            'restaurants': 'Hilarious Restaurant Reviews for 2025',
+            'cooking': 'Laugh at Cooking Mishaps for 2025'
+        }
+    };
+
+    let title = 'Bloofy - Hilarious Takes';
     let description = 'Explore Bloofy for the funniest insights on various topics. Laugh out loud with our unique humor!';
+    let canonicalUrl = 'https://bloofy.net';
 
     if (category) {
-        const categoryTitles = {
-            'technology': 'Tech Laughs',
-            'fashion': 'Fashion Funnies',
-            'cars': 'Car Comedy',
-            'travel': 'Travel Tales',
-            'food': 'Happy Meal'
-        };
-        const subTopics = {
-            'technology': {
-                'gadgets': 'Hilarious gadget reviews on Bloofy for 2025!',
-                'software': 'Funny software insights on Bloofy for 2025!',
-                'ai': 'Laugh at AI developments on Bloofy for 2025!'
-            },
-            'fashion': {
-                'trends': 'Funny fashion trends on Bloofy for 2025!',
-                'accessories': 'Hilarious accessory tips on Bloofy for 2025!',
-                'designer': 'Laugh at designer fashion on Bloofy for 2025!'
-            },
-            'cars': {
-                'sports': 'Funny sports car stories on Bloofy for 2025!',
-                'electric': 'Hilarious electric car insights on Bloofy for 2025!',
-                'vintage': 'Laugh at vintage cars on Bloofy for 2025!'
-            },
-            'travel': {
-                'destinations': 'Funny travel destinations on Bloofy for 2025!',
-                'tips': 'Hilarious travel tips on Bloofy for 2025!',
-                'adventures': 'Laugh at travel adventures on Bloofy for 2025!'
-            },
-            'food': {
-                'recipes': 'Funny food recipes on Bloofy for 2025!',
-                'restaurants': 'Hilarious restaurant reviews on Bloofy for 2025!',
-                'cooking': 'Laugh at cooking mishaps on Bloofy for 2025!'
-            }
-        };
-        title = `${baseTitle} on ${categoryTitles[category] || 'Various Topics'}`;
-        description = subTopics[category] && subTopics[category][location.hash.substring(1)] || `Dive into the funniest ${categoryTitles[category] || 'content'} on Bloofy for 2025!`;
+        title = categoryTitles[category] || 'Various Topics';
+        description = `Dive into the funniest ${categoryTitles[category] || 'content'} on Bloofy for 2025!`;
+        canonicalUrl = `https://bloofy.net/?${category}`;
+
+        if (subcategory && subTopics[category] && subTopics[category][subcategory]) {
+            title = subTopics[category][subcategory];
+            description = subTopics[category][subcategory];
+            canonicalUrl = `https://bloofy.net/?${category}#${subcategory}`;
+        }
     }
 
     document.title = title;
@@ -52,6 +60,16 @@ function updateMetaTags(category = '') {
         metaDesc.setAttribute('name', 'description');
         metaDesc.setAttribute('content', description);
         document.head.appendChild(metaDesc);
+    }
+
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) {
+        canonical.setAttribute('href', canonicalUrl);
+    } else {
+        canonical = document.createElement('link');
+        canonical.setAttribute('rel', 'canonical');
+        canonical.setAttribute('href', canonicalUrl);
+        document.head.appendChild(canonical);
     }
 }
 
@@ -100,7 +118,7 @@ function showPopup(contentId, cat) {
         popupContent.innerHTML = sourceContent.innerHTML;
         popup.classList.add('active');
         history.pushState({ category: cat, sub: contentId }, '', `/?${cat}#${contentId}`);
-        updateMetaTags(cat); // Update meta tags when showing popup
+        updateMetaTags(cat, contentId);
     }
 }
 
@@ -110,6 +128,7 @@ function closePopup() {
 
     const search = location.search;
     history.pushState({ category: location.search.substring(1) }, '', `${search}`);
+    updateMetaTags(location.search.substring(1));
 }
 
 window.addEventListener('load', () => {
