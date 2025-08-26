@@ -8,10 +8,38 @@ function updateMetaTags(category = '') {
             'technology': 'Tech Laughs',
             'fashion': 'Fashion Funnies',
             'cars': 'Car Comedy',
-            'travel': 'Travel Tales'
+            'travel': 'Travel Tales',
+            'food': 'Happy Meal'
+        };
+        const subTopics = {
+            'technology': {
+                'gadgets': 'Hilarious gadget reviews on Bloofy for 2025!',
+                'software': 'Funny software insights on Bloofy for 2025!',
+                'ai': 'Laugh at AI developments on Bloofy for 2025!'
+            },
+            'fashion': {
+                'trends': 'Funny fashion trends on Bloofy for 2025!',
+                'accessories': 'Hilarious accessory tips on Bloofy for 2025!',
+                'designer': 'Laugh at designer fashion on Bloofy for 2025!'
+            },
+            'cars': {
+                'sports': 'Funny sports car stories on Bloofy for 2025!',
+                'electric': 'Hilarious electric car insights on Bloofy for 2025!',
+                'vintage': 'Laugh at vintage cars on Bloofy for 2025!'
+            },
+            'travel': {
+                'destinations': 'Funny travel destinations on Bloofy for 2025!',
+                'tips': 'Hilarious travel tips on Bloofy for 2025!',
+                'adventures': 'Laugh at travel adventures on Bloofy for 2025!'
+            },
+            'food': {
+                'recipes': 'Funny food recipes on Bloofy for 2025!',
+                'restaurants': 'Hilarious restaurant reviews on Bloofy for 2025!',
+                'cooking': 'Laugh at cooking mishaps on Bloofy for 2025!'
+            }
         };
         title = `${baseTitle} on ${categoryTitles[category] || 'Various Topics'}`;
-        description = `Dive into the funniest ${categoryTitles[category] || 'content'} on Bloofy for 2025!`;
+        description = subTopics[category] && subTopics[category][location.hash.substring(1)] || `Dive into the funniest ${categoryTitles[category] || 'content'} on Bloofy for 2025!`;
     }
 
     document.title = title;
@@ -72,6 +100,7 @@ function showPopup(contentId, cat) {
         popupContent.innerHTML = sourceContent.innerHTML;
         popup.classList.add('active');
         history.pushState({ category: cat, sub: contentId }, '', `/?${cat}#${contentId}`);
+        updateMetaTags(cat); // Update meta tags when showing popup
     }
 }
 
@@ -125,4 +154,4 @@ window.addEventListener('popstate', () => {
     } else {
         popup.classList.remove('active');
     }
-}); 
+});
