@@ -8,29 +8,34 @@ function updateMetaTags(category = '', subcategory = '') {
     };
     const subTopics = {
         'technology': {
-            'gadgets': 'Hilarious Gadget Reviews for 2025',
-            'software': 'Funny Software Insights for 2025',
-            'ai': 'Laugh at AI Developments for 2025'
+            'best-specs-of-cellphones-2025': 'Best Cellphone Specs to Laugh About in 2025',
+            'smart-home-gadgets-2025': 'Hilarious Smart Home Gadgets for 2025',
+            'ai-assistant-fails-2025': 'Funny AI Assistant Fails in 2025',
+            'vr-gaming-trends-2025': 'VR Gaming Trends That’ll Make You Laugh in 2025'
         },
         'fashion': {
-            'trends': 'Funny Fashion Trends for 2025',
-            'accessories': 'Hilarious Accessory Tips for 2025',
-            'designer': 'Laugh at Designer Fashion for 2025'
+            'weird-fashion-trends-2025': 'Weird Fashion Trends to Chuckle at in 2025',
+            'sustainable-fashion-2025': 'Sustainable Fashion Funnies for 2025',
+            'celebrity-style-fails-2025': 'Celebrity Style Fails to Laugh at in 2025',
+            'diy-fashion-hacks-2025': 'DIY Fashion Hacks That Are Hilarious in 2025'
         },
         'cars': {
-            'sports': 'Funny Sports Car Stories for 2025',
-            'electric': 'Hilarious Electric Car Insights for 2025',
-            'vintage': 'Laugh at Vintage Cars for 2025'
+            'funniest-car-fails-2025': 'Funniest Car Fails of 2025',
+            'electric-car-innovations-2025': 'Electric Car Innovations to Laugh About in 2025',
+            'car-sharing-disasters-2025': 'Car-Sharing Disasters That Are Funny in 2025',
+            'autonomous-car-adventures-2025': 'Autonomous Car Adventures for Laughs in 2025'
         },
         'travel': {
-            'destinations': 'Funny Travel Destinations for 2025',
-            'tips': 'Hilarious Travel Tips for 2025',
-            'adventures': 'Laugh at Travel Adventures for 2025'
+            'wildest-travel-mishaps-2025': 'Wildest Travel Mishaps to Laugh at in 2025',
+            'smart-travel-gadgets-2025': 'Smart Travel Gadgets That Are Funny in 2025',
+            'bizarre-destination-trends-2025': 'Bizarre Destination Trends for 2025',
+            'solo-travel-trends-2025': 'Solo Travel Trends to Chuckle at in 2025'
         },
         'food': {
-            'recipes': 'Funny Food Recipes for 2025',
-            'restaurants': 'Hilarious Restaurant Reviews for 2025',
-            'cooking': 'Laugh at Cooking Mishaps for 2025'
+            'weird-food-trends-2025': 'Weird Food Trends to Laugh About in 2025',
+            'smart-kitchen-gadgets-2025': 'Smart Kitchen Gadgets for 2025 Funnies',
+            'viral-food-fails-2025': 'Viral Food Fails That Are Hilarious in 2025',
+            'plant-based-food-craze-2025': 'Plant-Based Food Craze to Laugh at in 2025'
         }
     };
 
