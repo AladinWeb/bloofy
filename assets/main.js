@@ -119,15 +119,15 @@ function updateMetaTags(category = '', subcategory = '') {
             description: 'Get fit and giggle with Bloofy’s 2025 fitness humor. Sweat and smile with our witty workout takes!',
             subtopics: {
                 'weird-fitness-trends-2025': {
-                    title: 'Wacky 2025 Fitness Trends to Chuckle At',
+                    title: 'Wacky Fitness Trends 2025: Funny Workouts and Hilarious Health Fads',
                     description: 'Bloofy’s take on 2025’s oddest fitness trends is hilarious. Laugh at quirky workouts with us!'
                 },
                 'smart-fitness-gadgets-2025': {
-                    title: 'Smart Fitness Gear Jokes for 2025 Fun',
+                    title: 'Smart Fitness Gear 2025: Funny Gadgets and Workout Laughs',
                     description: 'Bloofy roasts 2025’s smart fitness gadgets with wit. Chuckle at workout tech with our humor!'
                 },
                 'epic-workout-fails-2025': {
-                    title: 'Epic 2025 Workout Flops to Crack Up',
+                    title: 'Epic Workout Flops 2025: Hilarious Gym Fails and Fitness Laughs',
                     description: 'Bloofy’s 2025 workout fails are comedy gold. Laugh at gym disasters with our witty spin!'
                 },
                 'virtual-fitness-challenges-2025': {
@@ -141,19 +141,19 @@ function updateMetaTags(category = '', subcategory = '') {
             description: 'Dive into 2025’s entertainment chaos with Bloofy’s witty humor. Movies, memes, and more for laughs!',
             subtopics: {
                 'bizarre-movie-trends-2025': {
-                    title: 'Bizarre 2025 Movie Trends to Giggle At',
+                    title: 'Bizarre Movie Trends 2025: Funny Film Fads and Hilarious Moments',
                     description: 'Bloofy’s take on 2025’s weirdest movie trends is hilarious. Chuckle at cinematic chaos with us!'
                 },
                 'viral-meme-moments-2025': {
-                    title: 'Viral 2025 Memes for Big Laughs',
+                    title: 'Viral Memes 2025: Funny Trends and Big Laughs Online',
                     description: 'Bloofy’s 2025 viral meme moments are comedy gold. Laugh at internet humor with our wit!'
                 },
                 'streaming-service-fails-2025': {
-                    title: 'Streaming Flops to Crack Up in 2025',
+                    title: 'Streaming Flops 2025: Hilarious Shows and Funny Fails to Crack You Up',
                     description: 'Bloofy’s hilarious 2025 streaming service fails will make you laugh. Binge with our humor!'
                 },
                 'ar-gaming-craze-2025': {
-                    title: 'AR Gaming Craze for 2025 Chuckles',
+                    title: 'AR Gaming Trends 2025: Funny Moments and Hilarious Craze',
                     description: 'Bloofy’s funny spin on 2025’s AR gaming craze will have you laughing. Game on with our wit!'
                 }
             }
