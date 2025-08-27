@@ -13,7 +13,7 @@ function updateMetaTags(category = '', subcategory = '') {
                     description: 'Bloofy’s hilarious take on 2025’s wildest cellphone specs will leave you in stitches. Tech humor at its finest!'
                 },
                 'smart-home-gadgets-2025': {
-                    title: 'Smart Home Gear Laughs for 2025 Fun',
+                    title: 'Smart Home Gear Trends 2025: Fun Gadgets That Make Life Easier',
                     description: 'Explore 2025’s quirky smart home gadgets with Bloofy’s side-splitting humor. Get ready for techy laughs!'
                 },
                 'ai-assistant-fails-2025': {
@@ -35,7 +35,7 @@ function updateMetaTags(category = '', subcategory = '') {
                     description: 'Bloofy makes 2025’s oddest fashion trends hilarious. Chuckle at quirky styles with our funny insights!'
                 },
                 'sustainable-fashion-2025': {
-                    title: 'Green Fashion Jokes for 2025 Chuckles',
+                    title: 'Green Fashion Trends 2025: Eco-Friendly Style with a Fun Twist',
                     description: 'Eco-fashion gets a funny twist with Bloofy’s 2025 sustainable style quips. Laugh at green trends now!'
                 },
                 'celebrity-style-fails-2025': {
@@ -43,29 +43,29 @@ function updateMetaTags(category = '', subcategory = '') {
                     description: 'Bloofy’s witty take on 2025’s celebrity style fails will have you laughing. Star-studded humor awaits!'
                 },
                 'diy-fashion-hacks-2025': {
-                    title: 'DIY Fashion Hacks for 2025 Laughs',
+                    title: 'DIY Fashion Hacks 2025: Creative Styles with a Fun Twist',
                     description: 'Bloofy’s 2025 DIY fashion hacks are packed with humor. Laugh at clever style tips with our wit!'
                 }
             }
         },
         'cars': {
-            title: 'Car Comedy & Auto Jokes on Bloofy 2025',
+            title: 'Car Comedy 2025: Funny Auto Jokes & Laughs on Bloofy',
             description: 'Rev up for laughs with Bloofy’s 2025 car humor. From fails to innovations, our witty takes deliver!',
             subtopics: {
                 'funniest-car-fails-2025': {
-                    title: 'Funniest 2025 Car Fails to Crack You Up',
+                    title: 'Funniest Car Fails of 2025: Hilarious Moments to Make You Laugh',
                     description: 'Bloofy’s take on 2025’s epic car fails will leave you in stitches. Laugh at auto mishaps with us!'
                 },
                 'electric-car-innovations-2025': {
-                    title: 'Electric Car Jokes for 2025 Fun',
+                    title: 'Electric Car Jokes 2025: Hilarious EV Humor and Fun Laughs',
                     description: 'Bloofy’s hilarious 2025 electric car innovations will spark laughs. Charge up for auto humor now!'
                 },
                 'car-sharing-disasters-2025': {
-                    title: 'Car-Sharing Fiascos to Laugh at in 2025',
+                    title: 'Car-Sharing Fails 2025: Hilarious Rideshare Fiascos to Make You Laugh',
                     description: 'Bloofy’s 2025 car-sharing disasters are comedy gold. Chuckle at ride-share fails with our wit!'
                 },
                 'autonomous-car-adventures-2025': {
-                    title: 'Self-Driving Car Laughs for 2025',
+                    title: 'Self-Driving Car Jokes 2025: Funny Fails and Laugh-Out-Loud Moments',
                     description: 'Autonomous cars in 2025? Bloofy’s funny take on self-driving adventures will make you laugh!'
                 }
             }
