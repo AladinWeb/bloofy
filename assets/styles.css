@@ -90,6 +90,16 @@ body {
     background-size: cover;
     background-position: center;
 }
+.category-item#cat-fitness {
+    background-image: url('/images/fitness-bg.webp');
+    background-size: cover;
+    background-position: center;
+}
+.category-item#cat-entertainment {
+    background-image: url('/images/entertainment-bg.webp');
+    background-size: cover;
+    background-position: center;
+}
 
 .category-item:hover {
     transform: translateY(-5px);
