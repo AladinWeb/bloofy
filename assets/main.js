@@ -75,41 +75,41 @@ function updateMetaTags(category = '', subcategory = '') {
             description: 'Jet-set with laughs via Bloofy’s 2025 travel humor. Mishaps and tips get our witty spin for fun!',
             subtopics: {
                 'wildest-travel-mishaps-2025': {
-                    title: 'Wild 2025 Travel Mishaps to Laugh About',
+                    title: 'Wild Travel Mishaps 2025: Hilarious Adventures and Funny Fails',
                     description: 'Bloofy’s 2025 travel blunders are hilarious. Chuckle at the wildest trip fails with our humor!'
                 },
                 'smart-travel-gadgets-2025': {
-                    title: 'Smart Travel Gear Jokes for 2025',
+                    title: 'Smart Travel Gear 2025: Funny Gadgets and Travel Jokes',
                     description: 'Bloofy roasts 2025’s smart travel gadgets with humor. Laugh at clever trip tools with our wit!'
                 },
                 'bizarre-destination-trends-2025': {
-                    title: 'Odd 2025 Travel Spots for Chuckles',
+                    title: 'Odd Travel Spots 2025: Weird Destinations with a Funny Twist',
                     description: 'Weird 2025 destinations? Bloofy’s hilarious spin on bizarre travel trends will make you laugh!'
                 },
                 'solo-travel-trends-2025': {
-                    title: 'Solo Travel Humor for 2025 Fun',
+                    title: 'Solo Travel Humor 2025: Funny Stories and Laugh-Out-Loud Moments',
                     description: 'Bloofy’s 2025 solo travel trends are packed with laughs. Chuckle at lone trip tips with us!'
                 }
             }
         },
         'food': {
-            title: 'Food Humor & Tasty Jokes on Bloofy 2025',
+            title: 'Food Humor 2025: Tasty Jokes and Funny Bites on Bloofy',
             description: 'Savor laughs with Bloofy’s 2025 food humor. Recipes and fails get our funny twist for fun!',
             subtopics: {
                 'weird-food-trends-2025': {
-                    title: 'Wacky 2025 Food Trends to Laugh At',
+                    title: 'Wacky Food Trends 2025: Funny Eats and Hilarious Culinary Fails',
                     description: 'Bloofy’s take on 2025’s strangest food trends is hilarious. Chuckle at weird eats with us!'
                 },
                 'smart-kitchen-gadgets-2025': {
-                    title: 'Kitchen Gadget Jokes for 2025 Fun',
+                    title: 'Kitchen Gadget Jokes 2025: Funny Tools and Cooking Laughs',
                     description: 'Bloofy mocks 2025’s smart kitchen tools with wit. Laugh at culinary gadgets with our humor!'
                 },
                 'viral-food-fails-2025': {
-                    title: 'Viral 2025 Food Flops to Crack Up',
+                    title: 'Viral Food Flops 2025: Hilarious Kitchen Fails and Funny Trends',
                     description: 'Bloofy’s 2025 viral food fails are comedy gold. Laugh at kitchen disasters with our wit!'
                 },
                 'plant-based-food-craze-2025': {
-                    title: 'Plant-Based Food Fun for 2025',
+                    title: 'Plant-Based Food 2025: Funny Trends and Hilarious Vegan Moments',
                     description: 'Bloofy’s hilarious twist on 2025’s plant-based food craze will make you laugh. Vegan fun!'
                 }
             }
