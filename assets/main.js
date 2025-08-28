@@ -23,6 +23,14 @@ function updateMetaTags(category = '', subcategory = '') {
                 'vr-gaming-trends-2025': {
                     title: 'VR Gaming Trends 2025: Hilarious Future of Play',
                     description: 'Dive into 2025’s VR gaming trends with Bloofy’s hilarious spin. Laugh at the future of gaming with us!'
+                },
+                'wearable-tech-flops-2025': {
+                    title: 'Wearable Tech Flops 2025: Hilarious Gadget Fails',
+                    description: 'Bloofy’s take on 2025’s wearable tech disasters will make you laugh. Chuckle at glitchy gadgets with our wit!'
+                },
+                'holographic-device-hype-2025': {
+                    title: 'Holographic Device Hype 2025: Funny Tech Trends',
+                    description: 'Bloofy’s hilarious spin on 2025’s holographic device craze will leave you in stitches. Techy laughs await!'
                 }
             }
         },
@@ -45,6 +53,14 @@ function updateMetaTags(category = '', subcategory = '') {
                 'diy-fashion-hacks-2025': {
                     title: 'DIY Fashion Hacks 2025: Creative Styles with a Fun Twist',
                     description: 'Bloofy’s 2025 DIY fashion hacks are packed with humor. Laugh at clever style tips with our wit!'
+                },
+                'smart-clothing-fails-2025': {
+                    title: 'Smart Clothing Fails 2025: Hilarious Fashion Tech Flops',
+                    description: 'Bloofy’s take on 2025’s glitchy smart clothing will make you laugh. Chuckle at wardrobe malfunctions!'
+                },
+                'retro-fashion-revival-2025': {
+                    title: 'Retro Fashion Revival 2025: Funny Throwback Styles',
+                    description: 'Bloofy’s hilarious spin on 2025’s retro fashion comeback will have you giggling at nostalgic trends!'
                 }
             }
         },
@@ -67,6 +83,14 @@ function updateMetaTags(category = '', subcategory = '') {
                 'autonomous-car-adventures-2025': {
                     title: 'Self-Driving Car Jokes 2025: Funny Fails and Laugh-Out-Loud Moments',
                     description: 'Autonomous cars in 2025? Bloofy’s funny take on self-driving adventures will make you laugh!'
+                },
+                'car-customization-chaos-2025': {
+                    title: 'Car Customization Chaos 2025: Funny Mod Fails',
+                    description: 'Bloofy’s take on 2025’s wild car customizations will make you laugh. Chuckle at mod mishaps with us!'
+                },
+                'flying-car-fantasies-2025': {
+                    title: 'Flying Car Fantasies 2025: Hilarious Airborne Jokes',
+                    description: 'Bloofy’s funny spin on 2025’s flying car dreams will leave you giggling at sky-high flops!'
                 }
             }
         },
@@ -89,6 +113,14 @@ function updateMetaTags(category = '', subcategory = '') {
                 'solo-travel-trends-2025': {
                     title: 'Solo Travel Humor 2025: Funny Stories and Laugh-Out-Loud Moments',
                     description: 'Bloofy’s 2025 solo travel trends are packed with laughs. Chuckle at lone trip tips with us!'
+                },
+                'eco-travel-blunders-2025': {
+                    title: 'Eco-Travel Blunders 2025: Funny Green Travel Fails',
+                    description: 'Bloofy’s take on 2025’s eco-travel mishaps will make you laugh. Chuckle at green trip flops!'
+                },
+                'space-tourism-teasers-2025': {
+                    title: 'Space Tourism Teasers 2025: Hilarious Cosmic Jokes',
+                    description: 'Bloofy’s funny spin on 2025’s space tourism hype will have you giggling at starry flops!'
                 }
             }
         },
@@ -111,6 +143,14 @@ function updateMetaTags(category = '', subcategory = '') {
                 'plant-based-food-craze-2025': {
                     title: 'Plant-Based Food 2025: Funny Trends and Hilarious Vegan Moments',
                     description: 'Bloofy’s hilarious twist on 2025’s plant-based food craze will make you laugh. Vegan fun!'
+                },
+                '3d-printed-food-fiascos-2025': {
+                    title: '3D-Printed Food Fiascos 2025: Funny Kitchen Flops',
+                    description: 'Bloofy’s take on 2025’s 3D-printed food disasters will make you laugh. Chuckle at culinary chaos!'
+                },
+                'global-food-fusion-2025': {
+                    title: 'Global Food Fusion 2025: Hilarious Culinary Mashups',
+                    description: 'Bloofy’s funny spin on 2025’s global food fusion trends will have you giggling at tasty chaos!'
                 }
             }
         },
@@ -133,6 +173,14 @@ function updateMetaTags(category = '', subcategory = '') {
                 'virtual-fitness-challenges-2025': {
                     title: 'Virtual Fitness Challenges for 2025 Laughs',
                     description: 'Bloofy’s hilarious spin on 2025’s virtual fitness challenges will make you sweat and smile!'
+                },
+                'ai-coach-mishaps-2025': {
+                    title: 'AI Coach Mishaps 2025: Funny Fitness Fails',
+                    description: 'Bloofy’s take on 2025’s AI fitness coach flops will make you laugh. Chuckle at gym tech chaos!'
+                },
+                'extreme-fitness-crazes-2025': {
+                    title: 'Extreme Fitness Crazes 2025: Hilarious Workout Trends',
+                    description: 'Bloofy’s funny spin on 2025’s extreme fitness fads will have you giggling at wild workouts!'
                 }
             }
         },
@@ -155,6 +203,14 @@ function updateMetaTags(category = '', subcategory = '') {
                 'ar-gaming-craze-2025': {
                     title: 'AR Gaming Trends 2025: Funny Moments and Hilarious Craze',
                     description: 'Bloofy’s funny spin on 2025’s AR gaming craze will have you laughing. Game on with our wit!'
+                },
+                'interactive-tv-trends-2025': {
+                    title: 'Interactive TV Trends 2025: Funny Shows and Binge Laughs',
+                    description: 'Bloofy’s take on 2025’s interactive TV chaos will make you laugh. Chuckle at binge-worthy flops!'
+                },
+                'celebrity-meme-meltdowns-2025': {
+                    title: 'Celebrity Meme Meltdowns 2025: Hilarious Star Flops',
+                    description: 'Bloofy’s funny spin on 2025’s celebrity meme meltdowns will have you giggling at viral chaos!'
                 }
             }
         }
