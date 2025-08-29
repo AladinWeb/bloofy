@@ -204,6 +204,36 @@ body {
     height: auto;
     margin-bottom: 15px;
     border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added for consistency with About page */
+}
+
+/* About Page Styles */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.about-section {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.about-section h2 {
+    color: #4CAF50;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2e7d32;
+    padding-bottom: 5px;
+}
+
+.about-section p {
+    color: black;
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+    margin-bottom: 15px;
 }
 
 /* Responsive Design */
@@ -234,6 +264,22 @@ body {
         max-width: 80%; /* Responsive width on tablets */
         right: -80%;
     }
+
+    main {
+        padding: 0 10px;
+    }
+
+    .about-section {
+        padding: 15px;
+    }
+
+    .about-section h2 {
+        font-size: clamp(1rem, 2.5vw, 1.5rem);
+    }
+
+    .about-section p {
+        font-size: clamp(0.8rem, 1.8vw, 1rem);
+    }
 }
 
 @media (max-width: 480px) {
@@ -259,7 +305,7 @@ body {
         font-size: 1.2rem;
     }
 
-    .sub-list li h3 {
+    .sub-list li span {
         font-size: 1rem;
     }
 
@@ -290,4 +336,16 @@ body {
         height: auto;
     }
 
+    .about-section {
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    .about-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .about-section p {
+        font-size: 0.9rem;
+    }
 }

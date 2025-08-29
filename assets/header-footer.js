@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <header>
             <a href="/"><img src="/images/bloofy-logo.png" alt="Bloofy Logo"></a>
             <nav>
-                <a href="#">About</a>
+                <a href="/about">About</a>
                 <a href="#">Contact</a>
             </nav>
         </header>
