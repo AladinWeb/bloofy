@@ -225,7 +225,7 @@ function updateMetaTags(category = '', subcategory = '') {
     let canonicalUrl = 'https://bloofy.net';
 
     // Check if on about.html
-    if (window.location.pathname === '/about.html') {
+    if (window.location.pathname === '/about') {
         title = metaData.about.title;
         description = metaData.about.description;
         canonicalUrl = 'https://bloofy.net/about';
@@ -324,7 +324,7 @@ function closePopup() {
 
 window.addEventListener('load', () => {
     const search = location.search.substring(1);
-    if (window.location.pathname === '/about.html') {
+    if (window.location.pathname === '/about') {
         updateMetaTags();
     } else {
         if (search) {
