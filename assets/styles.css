@@ -222,6 +222,14 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+.about-section h1 {
+    color: #4CAF50;
+    font-size: clamp(1.4rem, 3.2vw, 2rem);
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2e7d32;
+    padding-bottom: 5px;
+}
+
 .about-section h2 {
     color: #4CAF50;
     font-size: clamp(1.2rem, 3vw, 1.8rem);
@@ -271,6 +279,10 @@ main {
 
     .about-section {
         padding: 15px;
+    }
+
+    .about-section h1 {
+        font-size: clamp(1.2rem, 2.7vw, 1.7rem);
     }
 
     .about-section h2 {
@@ -339,6 +351,10 @@ main {
     .about-section {
         margin-bottom: 15px;
         padding: 10px;
+    }
+
+    .about-section h1 {
+        font-size: 1.4rem;
     }
 
     .about-section h2 {
