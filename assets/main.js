@@ -3,7 +3,11 @@ function updateMetaTags(category = '', subcategory = '') {
         'main': {
             title: 'Bloofy: Hilarious Takes on Tech, Fashion & More in 2025',
             description: 'Laugh out loud with Bloofy’s witty 2025 takes on tech, fashion, cars, travel, and food. Discover humor like never before!'
-        },       
+        },
+        'about': {
+            title: 'About Bloofy: Laugh-Out-Loud Humor for 2025',
+            description: 'Discover Bloofy, your go-to for hilarious 2025 takes on tech, fashion, cars, travel, food, fitness, and entertainment. Laugh with our witty humor!'
+        },
         'technology': {
             title: 'Tech Jokes & Gadget Giggles on Bloofy for 2025',
             description: 'Get ready to chuckle at 2025’s tech trends and gadgets with Bloofy’s sharp humor and witty insights. Laughs guaranteed!',
@@ -220,7 +224,12 @@ function updateMetaTags(category = '', subcategory = '') {
     let description = metaData.main.description;
     let canonicalUrl = 'https://bloofy.net';
 
-    if (category && metaData[category]) {
+    // Check if on about.html
+    if (window.location.pathname === '/about.html') {
+        title = metaData.about.title;
+        description = metaData.about.description;
+        canonicalUrl = 'https://bloofy.net/about';
+    } else if (category && metaData[category]) {
         title = metaData[category].title;
         description = metaData[category].description;
         canonicalUrl = `https://bloofy.net/?${category}`;
@@ -315,44 +324,52 @@ function closePopup() {
 
 window.addEventListener('load', () => {
     const search = location.search.substring(1);
-    if (search) {
-        const subList = document.querySelector(`#cat-${search} .sub-list`);
-        if (subList) {
-            subList.style.display = 'block';
-            subList.style.maxHeight = subList.scrollHeight + 'px';
-        }
-    }
-    if (location.hash) {
-        const hash = location.hash.substring(1);
-        const cat = location.search.substring(1);
-        showPopup(hash, cat);
-    } else {
+    if (window.location.pathname === '/about.html') {
         updateMetaTags();
+    } else {
+        if (search) {
+            const subList = document.querySelector(`#cat-${search} .sub-list`);
+            if (subList) {
+                subList.style.display = 'block';
+                subList.style.maxHeight = subList.scrollHeight + 'px';
+            }
+        }
+        if (location.hash) {
+            const hash = location.hash.substring(1);
+            const cat = location.search.substring(1);
+            showPopup(hash, cat);
+        } else {
+            updateMetaTags();
+        }
     }
 });
 
 window.addEventListener('popstate', () => {
     const search = location.search.substring(1);
-    document.querySelectorAll('.sub-list').forEach(el => {
-        el.style.maxHeight = null;
-        el.style.display = 'none';
-    });
-    if (search) {
-        const subList = document.querySelector(`#cat-${search} .sub-list`);
-        if (subList) {
-            subList.style.display = 'block';
-            subList.style.maxHeight = subList.scrollHeight + 'px';
-        }
-        updateMetaTags(search);
-    } else {
+    if (window.location.pathname === '/about.html') {
         updateMetaTags();
-    }
-    const popup = document.getElementById('popup');
-    if (location.hash) {
-        const hash = location.hash.substring(1);
-        const cat = location.search.substring(1);
-        showPopup(hash, cat);
     } else {
-        popup.classList.remove('active');
+        document.querySelectorAll('.sub-list').forEach(el => {
+            el.style.maxHeight = null;
+            el.style.display = 'none';
+        });
+        if (search) {
+            const subList = document.querySelector(`#cat-${search} .sub-list`);
+            if (subList) {
+                subList.style.display = 'block';
+                subList.style.maxHeight = subList.scrollHeight + 'px';
+            }
+            updateMetaTags(search);
+        } else {
+            updateMetaTags();
+        }
+        const popup = document.getElementById('popup');
+        if (location.hash) {
+            const hash = location.hash.substring(1);
+            const cat = location.search.substring(1);
+            showPopup(hash, cat);
+        } else {
+            popup.classList.remove('active');
+        }
     }
 });
