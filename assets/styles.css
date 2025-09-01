@@ -101,6 +101,12 @@ body {
     background-position: center;
 }
 
+.category-item#cat-news {
+    background-image: url('/images/news-bg.webp');
+    background-size: cover;
+    background-position: center;
+}
+
 .category-item:hover {
     transform: translateY(-5px);
 }
