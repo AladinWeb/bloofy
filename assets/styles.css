@@ -250,6 +250,40 @@ main {
     margin-bottom: 15px;
 }
 
+/* Contact Page Styles */
+.contact-section {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.contact-section h2 {
+    color: #4CAF50;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2e7d32;
+    padding-bottom: 5px;
+}
+
+.contact-section p {
+    color: black;
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+    margin-bottom: 15px;
+}
+
+.contact-link {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.contact-link:hover {
+    color: #2e7d32;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
@@ -283,19 +317,19 @@ main {
         padding: 0 10px;
     }
 
-    .about-section {
+    .about-section, .contact-section {
         padding: 15px;
     }
 
-    .about-section h1 {
+    .about-section h1, .contact-section h1 {
         font-size: clamp(1.2rem, 2.7vw, 1.7rem);
     }
 
-    .about-section h2 {
+    .about-section h2, .contact-section h2 {
         font-size: clamp(1rem, 2.5vw, 1.5rem);
     }
 
-    .about-section p {
+    .about-section p, .contact-section p {
         font-size: clamp(0.8rem, 1.8vw, 1rem);
     }
 }
@@ -354,20 +388,20 @@ main {
         height: auto;
     }
 
-    .about-section {
+    .about-section, .contact-section {
         margin-bottom: 15px;
         padding: 10px;
     }
 
-    .about-section h1 {
+    .about-section h1, .contact-section h1 {
         font-size: 1.4rem;
     }
 
-    .about-section h2 {
+    .about-section h2, .contact-section h2 {
         font-size: 1.2rem;
     }
 
-    .about-section p {
+    .about-section p, .contact-section p {
         font-size: 0.9rem;
     }
 }
