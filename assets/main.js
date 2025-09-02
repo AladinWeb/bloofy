@@ -8,6 +8,10 @@ function updateMetaTags(category = '', subcategory = '') {
             title: 'About Bloofy: Laugh-Out-Loud Humor for 2025',
             description: 'Discover Bloofy, your go-to for hilarious 2025 takes on tech, fashion, cars, travel, food, fitness, and entertainment. Laugh with our witty humor!'
         },
+        'contact': {
+            title: 'Contact Bloofy: Get in Touch for 2025 Laughs',
+            description: 'Reach out to Bloofy for laughs, collabs, or to share your 2025 fails. Email us or ping us on X for witty humor and fun vibes!'
+        },
         'technology': {
             title: 'Tech Jokes & Gadget Giggles on Bloofy for 2025',
             description: 'Get ready to chuckle at 2025’s tech trends and gadgets with Bloofy’s sharp humor and witty insights. Laughs guaranteed!',
