@@ -217,6 +217,40 @@ function updateMetaTags(category = '', subcategory = '') {
                     description: 'Bloofy’s funny spin on 2025’s celebrity meme meltdowns will have you giggling at viral chaos!'
                 }
             }
+        },
+        'news': {
+            title: 'News Nuggets & Breaking Story Chuckles on Bloofy 2025',
+            description: 'Dive into 2025’s news chaos with Bloofy’s sharp wit. From blunders to breakthroughs, laugh at the headlines!',
+            subtopics: {
+                'viral-news-blunders-2025': {
+                    title: 'Viral News Blunders 2025: Funny Flops and Hilarious Mishaps',
+                    description: 'Bloofy’s take on 2025’s news blunders is comedy gold. Chuckle at broadcast chaos with us!'
+                },
+                'citizen-journalism-rise-2025': {
+                    title: 'Citizen Journalism Rise 2025: Funny Scoops and Viral Stories',
+                    description: 'Bloofy’s hilarious spin on 2025’s citizen journalism will make you laugh. Join the news frenzy!'
+                },
+                'ai-news-anchors-2025': {
+                    title: 'AI News Anchors 2025: Funny Glitches and Robotic Laughs',
+                    description: 'Bloofy’s take on 2025’s AI news anchors is a riot. Giggle at techy news fails with us!'
+                },
+                'misinformation-memes-2025': {
+                    title: 'Misinformation Memes 2025: Hilarious Fakes and Viral Jokes',
+                    description: 'Bloofy’s funny take on 2025’s misinformation memes will have you laughing. Spot the fakes with wit!'
+                },
+                'hyperlocal-news-trends-2025': {
+                    title: 'Hyperlocal News Trends 2025: Funny Local Scoops and Laughs',
+                    description: 'Bloofy’s hilarious spin on 2025’s hyperlocal news will keep you chuckling. Stay local with laughs!'
+                },
+                'ar-news-experiences-2025': {
+                    title: 'AR News Experiences 2025: Funny Immersive Stories and Giggles',
+                    description: 'Bloofy’s take on 2025’s AR news chaos is a laugh fest. Dive into immersive headlines with us!'
+                },
+                'google-spam-update-2025': {
+                    title: 'Google August 2025 Spam Update: Funny SEO Chaos and Ranking Laughs',
+                    description: 'Bloofy’s witty take on Google’s 2025 spam update will make you giggle. Navigate SEO flops with us!'
+                }
+            }
         }
     };
 
