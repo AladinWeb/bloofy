@@ -9,7 +9,18 @@
 
 <url>
   <loc>https://bloofy.net/</loc>
-  <lastmod>2025-08-27T07:10:53+00:00</lastmod>
+  <lastmod>2025-09-04T04:04:51+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://bloofy.net/about</loc>
+  <lastmod>2025-09-04T04:04:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bloofy.net/contact</loc>
+  <lastmod>2025-09-04T04:04:51+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
