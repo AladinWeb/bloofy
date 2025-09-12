@@ -27,6 +27,14 @@ function updateMetaTags(category = '', subcategory = '') {
                 'holographic-device-hype-2025': {
                     title: 'Holographic Device Hype 2025: Funny Tech Trends',
                     description: 'Bloofy’s hilarious spin on 2025’s holographic device craze will leave you in stitches. Techy laughs await!'
+                },
+                'robot-vacuum-mayhem-2025': {
+                    title: 'Robot Vacuum Mayhem 2025: Hilarious Cleaning Chaos',
+                    description: 'Bloofy’s take on 2025’s rogue robot vacuums will have you laughing. Chuckle at cleaning gone wild with our wit!'
+                },
+                'smart-car-chaos-2025': {
+                    title: 'Smart Car Chaos 2025: Funny Driving Disasters',
+                    description: 'Bloofy’s hilarious spin on 2025’s smart car mishaps will leave you in stitches. Laugh at road tech gone rogue!'
                 }
             }
         },
@@ -57,6 +65,14 @@ function updateMetaTags(category = '', subcategory = '') {
                 'retro-fashion-revival-2025': {
                     title: 'Retro Fashion Revival 2025: Funny Throwback Styles',
                     description: 'Bloofy’s hilarious spin on 2025’s retro fashion comeback will have you giggling at nostalgic trends!'
+                },
+                'animal-print-mania-2025': {
+                    title: 'Animal Print Mania 2025: Hilarious Wild Patterns',
+                    description: 'Bloofy’s funny take on 2025’s animal print craze will have you laughing. Chuckle at roaring styles with our wit!'
+                },
+                'boho-chic-revival-2025': {
+                    title: 'Boho Chic Revival 2025: Funny Flowy Fashion',
+                    description: 'Bloofy’s hilarious spin on 2025’s boho chic revival will leave you giggling at free-spirited flops!'
                 }
             }
         },
