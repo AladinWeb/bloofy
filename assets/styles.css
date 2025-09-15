@@ -107,6 +107,18 @@ body {
     background-position: center;
 }
 
+.category-item#cat-games {
+    background-image: url('/images/games-bg.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.category-item#cat-shows {
+    background-image: url('/images/shows-bg.webp');
+    background-size: cover;
+    background-position: center;
+}
+
 .category-item:hover {
     transform: translateY(-5px);
 }
