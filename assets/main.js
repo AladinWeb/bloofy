@@ -274,7 +274,99 @@ function updateMetaTags(category = '', subcategory = '') {
                     description: 'Bloofy’s witty take on Google’s 2025 spam update will make you giggle. Navigate SEO flops with us!'
                 }
             }
+        },
+        'games': {
+        title: 'Game Giggles & Playtime Pranks on Bloofy 2025',
+        description: 'Level up your laughs with Bloofy’s 2025 game humor. From glitches to bloopers, get ready for epic gaming fun!',
+        subtopics: {
+            'epic-game-glitches-2025': {
+                title: 'Epic Game Glitches 2025: Where Your Avatar Turns Into a Glitchy Dance Party',
+                description: 'Bloofy’s take on 2025’s wildest game glitches will have you laughing. Chuckle at virtual chaos!'
+            },
+            'board-game-comeback-2025': {
+                title: 'Board Game Comeback 2025: When Dice Rolls Outdo Digital Wins',
+                description: 'Bloofy’s hilarious spin on 2025’s board game revival will make you giggle. Retro fun awaits!'
+            },
+            'esports-bloopers-2025': {
+                title: 'Esports Bloopers 2025: When Pros Yeet Controllers in Epic Fails',
+                description: 'Bloofy’s take on 2025’s esports mishaps is comedy gold. Laugh at pro gaming flops!'
+            },
+            'mobile-game-madness-2025': {
+                title: 'Mobile Game Madness 2025: Addictive Apps That Crash Your Life',
+                description: 'Bloofy’s funny take on 2025’s mobile game craze will have you laughing. Beware the addiction!'
+            },
+            'retro-arcade-revival-2025': {
+                title: 'Retro Arcade Revival 2025: Where 8-Bit Glitches Steal the Show',
+                description: 'Bloofy’s hilarious spin on 2025’s arcade comeback will leave you in stitches. Nostalgia with laughs!'
+            },
+            'puzzle-game-puzzles-2025': {
+                title: 'Puzzle Game Puzzles 2025: Brain-Teasers That Break Your Mind',
+                description: 'Bloofy’s take on 2025’s tricky puzzle games will make you chuckle. Test your wits with humor!'
+            },
+            'co-op-chaos-2025': {
+                title: 'Co-op Chaos 2025: When Teamwork Turns Into Friendly Fire Fiascos',
+                description: 'Bloofy’s funny spin on 2025’s co-op gaming disasters will have you laughing. Teamwork gone wild!'
+            },
+            'rpg-roleplay-ridicule-2025': {
+                title: 'RPG Roleplay Ridicule 2025: Hilarious Character Choices Gone Wrong',
+                description: 'Bloofy’s take on 2025’s RPG roleplay flops is a laugh fest. Giggle at epic character fails!'
+            },
+            'speedrun-spectacles-2025': {
+                title: 'Speedrun Spectacles 2025: Blazing Runs That End in Hilarious Crashes',
+                description: 'Bloofy’s hilarious take on 2025’s speedrun chaos will make you laugh. Fast fun with flops!'
+            },
+            'indie-game-oddities-2025': {
+                title: 'Indie Game Oddities 2025: Quirky Titles That Defy Logic',
+                description: 'Bloofy’s funny spin on 2025’s indie game weirdness will leave you giggling. Unique laughs await!'
+            }
         }
+    },
+    'shows': {
+        title: 'Showtime Snickers & TV Ticklers on Bloofy 2025',
+        description: 'Tune into 2025’s show chaos with Bloofy’s witty humor. From reality twists to live TV laughs, get ready to giggle!',
+        subtopics: {
+            'reality-tv-twists-2025': {
+                title: 'Reality TV Twists 2025: Drama So Wild It’ll Make You Question Reality',
+                description: 'Bloofy’s take on 2025’s reality TV shocks will have you laughing. Chuckle at unscripted chaos!'
+            },
+            'streaming-show-fails-2025': {
+                title: 'Streaming Show Fails 2025: When Binge-Watching Hits a Plot Hole Trainwreck',
+                description: 'Bloofy’s hilarious spin on 2025’s streaming flops will make you laugh. Binge with humor!'
+            },
+            'talk-show-tumbles-2025': {
+                title: 'Talk Show Tumbles 2025: When Hosts Trip Over Their Own Jokes',
+                description: 'Bloofy’s take on 2025’s talk show blunders is comedy gold. Giggle at live TV fails!'
+            },
+            'soap-opera-shocks-2025': {
+                title: 'Soap Opera Shocks 2025: Over-the-Top Twists That Defy Gravity',
+                description: 'Bloofy’s funny spin on 2025’s soap opera drama will leave you in stitches. Over-the-top laughs!'
+            },
+            'comedy-special-flops-2025': {
+                title: 'Comedy Special Flops 2025: Jokes That Bomb Harder Than a Cartoon Anvil',
+                description: 'Bloofy’s take on 2025’s comedy fails will make you chuckle. Laugh at stand-up disasters!'
+            },
+            'documentary-debacles-2025': {
+                title: 'Documentary Debacles 2025: Facts So Weird They Feel Fictional',
+                description: 'Bloofy’s hilarious spin on 2025’s docu-drama flops will have you giggling. Weird and wild!'
+            },
+            'awards-show-awkwardness-2025': {
+                title: 'Awards Show Awkwardness 2025: Speeches That Steal the Spotlight',
+                description: 'Bloofy’s take on 2025’s awards show gaffes is a laugh fest. Chuckle at celebrity blunders!'
+            },
+            'animated-series-snafus-2025': {
+                title: 'Animated Series Snafus 2025: When Cartoons Go Off the Rails',
+                description: 'Bloofy’s funny spin on 2025’s animated flops will make you laugh. Cartoon chaos awaits!'
+            },
+            'live-tv-laughs-2025': {
+                title: 'Live TV Laughs 2025: Unscripted Moments That Crack You Up',
+                description: 'Bloofy’s take on 2025’s live TV mishaps will have you giggling. Real-time humor!'
+            },
+            'scripted-drama-disasters-2025': {
+                title: 'Scripted Drama Disasters 2025: Plots So Bad They’re Good',
+                description: 'Bloofy’s hilarious spin on 2025’s drama flops will leave you laughing. Bad scripts, big laughs!'
+            }
+        }
+    }
     };
 
     let title = metaData.main.title;
