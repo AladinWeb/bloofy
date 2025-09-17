@@ -96,6 +96,14 @@ function updateMetaTags(category = '', subcategory = '') {
                 'boho-chic-revival-2025': {
                     title: 'Boho Chic Revival 2025: Funny Flowy Fashion',
                     description: 'Bloofy’s hilarious spin on 2025’s boho chic revival will leave you giggling at free-spirited flops!'
+                },
+                'neon-streetwear-explosion-2025': {
+                    title: 'Neon Streetwear Explosion 2025: Glow Like a Neon Sign and Blind the Haters',
+                    description: 'Bloofy lights up 2025’s neon streetwear craze with laughs, where glowing threads turn you into a walking rave and leave haters squinting in style!'
+                },
+                'futuristic-fabric-fads-2025': {
+                    title: 'Futuristic Fabric Fads 2025: Where Your Clothes Change Colors Like a Mood Ring',
+                    description: 'Bloofy dives into 2025’s futuristic fabric trends, where your wardrobe shifts hues with your mood—serving laughs and sci-fi fashion vibes!'
                 }
             }
         },
