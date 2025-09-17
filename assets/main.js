@@ -50,6 +50,14 @@ function updateMetaTags(category = '', subcategory = '') {
                 'smart-car-chaos-2025': {
                     title: 'Smart Car Chaos 2025: Funny Driving Disasters',
                     description: 'Bloofy’s hilarious spin on 2025’s smart car mishaps will leave you in stitches. Laugh at road tech gone rogue!'
+                },
+                'quantum-computing-capers-2025': {
+                    title: 'Quantum Computing Capers 2025: When Your PC Solves Riddles and Crashes Your Coffee Maker',
+                    description: 'Bloofy dives into 2025’s quantum computing chaos with laughs, where your PC outsmarts you and accidentally brews chaos. Quantum giggles guaranteed!'
+                },
+                'iot-security-snafus-2025': {
+                    title: 'IoT Security Snafus 2025: When Your Toaster Hacks Your Bank Account',
+                    description: 'Bloofy roasts 2025’s IoT security flops, where your smart devices turn into mischievous hackers. Chuckle at tech gone rogue!'
                 }
             }
         },
