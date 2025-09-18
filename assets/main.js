@@ -134,6 +134,22 @@ function updateMetaTags(category = '', subcategory = '') {
                 'flying-car-fantasies-2025': {
                     title: 'Flying Car Fantasies 2025: Hilarious Airborne Jokes',
                     description: 'Bloofy’s funny spin on 2025’s flying car dreams will leave you giggling at sky-high flops!'
+                },
+                'hydrogen-car-hype-2025': {
+                    title: 'Hydrogen Car Hype 2025: Zero Emissions, Maximum Laughs',
+                    description: 'Bloofy fuels 2025’s hydrogen car craze with humor, where zero-emission rides deliver eco-friendly giggles and the occasional explosion of fun!'
+                },
+                'vintage-car-comeback-2025': {
+                    title: 'Vintage Car Comeback 2025: Retro Rides with a Hilarious Twist',
+                    description: 'Bloofy revs up 2025’s vintage car revival with laughs, where classic wheels get a modern makeover and a side of comedic chaos!'
+                },
+                'off-road-outrage-2025': {
+                    title: 'Off-Road Outrage 2025: When SUVs Go Wild and Crash Harder',
+                    description: 'Bloofy tackles 2025’s off-road SUV madness with humor, where rugged rides turn into laughable wrecks and epic fails!'
+                },
+                'car-audio-absurdity-2025': {
+                    title: 'Car Audio Absurdity 2025: Bass So Loud It Wakes the Neighbors',
+                    description: 'Bloofy cranks up 2025’s car audio insanity with laughs, where booming systems shake streets and deliver a soundtrack of hilarity!'
                 }
             }
         },
