@@ -180,6 +180,22 @@ function updateMetaTags(category = '', subcategory = '') {
                 'space-tourism-teasers-2025': {
                     title: 'Space Tourism Teasers 2025: Hilarious Cosmic Jokes',
                     description: 'Bloofy’s funny spin on 2025’s space tourism hype will have you giggling at starry flops!'
+                },
+                'luxury-train-lunacy-2025': {
+                    title: 'Luxury Train Lunacy 2025: Glamour on Rails with a Side of Chaos',
+                    description: 'Bloofy chugs through 2025’s luxury train trends with laughs, where opulent rides like the Britannic Explorer deliver scenic splendor and hilarious high-speed hiccups!'
+                },
+                'cruise-ship-calamities-2025': {
+                    title: 'Cruise Ship Calamities 2025: Sea Adventures Turned Comedy Shows',
+                    description: 'Bloofy sails into 2025’s cruise trends with humor, where mega-ships like Icon of the Seas offer luxury waves and a surge of onboard blunders for endless giggles!'
+                },
+                'underground-travel-trends-2025': {
+                    title: 'Underground Travel Trends 2025: Hidden Caves and Hilarious Hikes',
+                    description: 'Bloofy explores 2025’s subterranean adventures with wit, from Mammoth Cave’s depths to quirky cave hikes that turn spelunking into a laugh-filled labyrinth!'
+                },
+                'virtual-travel-vibes-2025': {
+                    title: 'Virtual Travel Vibes 2025: Explore Worlds Without Leaving Your Couch',
+                    description: 'Bloofy teleports into 2025’s VR travel boom with laughs, where immersive headsets let you globe-trot from home—minus the jet lag and with extra digital drama!'
                 }
             }
         },
