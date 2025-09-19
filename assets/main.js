@@ -226,6 +226,22 @@ function updateMetaTags(category = '', subcategory = '') {
                 'global-food-fusion-2025': {
                     title: 'Global Food Fusion 2025: Hilarious Culinary Mashups',
                     description: 'Bloofy’s funny spin on 2025’s global food fusion trends will have you giggling at tasty chaos!'
+                },
+                'insect-cuisine-craze-2025': {
+                    title: 'Insect Cuisine Craze 2025: Bug Bites That Buzz with Bold Flavors',
+                    description: 'Bloofy dives into 2025’s insect food trend with laughs, where crickets and mealworms spice up plates with protein-packed punches and quirky crunch!'
+                },
+                'fermented-food-fever-2025': {
+                    title: 'Fermented Food Fever 2025: Funky Flavors That’ll Make Your Gut Groan or Growl',
+                    description: 'Bloofy ferments 2025’s food scene with humor, where kimchi and kombucha turn meals into tangy tales with a side of gut-busting giggles!'
+                },
+                'dessert-drone-deliveries-2025': {
+                    title: 'Dessert Drone Deliveries 2025: Sweet Treats from the Sky with a Side of Hilarity',
+                    description: 'Bloofy flies into 2025’s dessert drone craze with laughs, where chocolate cakes drop from above—sometimes on your roof—with aerial amusement!'
+                },
+                'molecular-gastronomy-madness-2025': {
+                    title: 'Molecular Gastronomy Madness 2025: Science Experiments on Your Plate',
+                    description: 'Bloofy cooks up 2025’s molecular food trends with wit, where edible foams and spherified soups turn dining into a lab-coated laugh fest!'
                 }
             }
         },
