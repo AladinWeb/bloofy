@@ -296,7 +296,7 @@ function updateMetaTags(category = '', subcategory = '') {
             description: 'Dive into 2025’s entertainment chaos with Bloofy’s witty humor. Movies, memes, and more for laughs!',
             subtopics: {
                 'bizarre-movie-trends-2025': {
-                    title: 'Bizarre Movie Trends 2025: Funny Film Fads and Hilarious Moments',
+                    title: 'Cinematic Chaos: Bizarre Flicks Flipping the Script',
                     description: 'Bloofy’s take on 2025’s weirdest movie trends is hilarious. Chuckle at cinematic chaos with us!'
                 },
                 'viral-meme-moments-2025': {
