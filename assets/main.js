@@ -6,8 +6,8 @@ function updateMetaTags(category = '', subcategory = '') {
         canonicalUrl: 'https://bloofy.net'
         },
         about: {
-            title: 'About Bloofy: 2025’s Official Clown Car of the Internet',
-            description: 'Bloofy: where tech flops, fashion disasters, food fails, and futuristic chaos get roasted daily. Powered by sarcasm, fueled by caffeine, and brought to you by AllWorld SEO’s comedy empire.',
+            title: 'Bloofy: 2025’s Ultimate Guide to Internet Fails & Chaos',
+            description: 'Discover Bloofy, your go-to source for 2025’s funniest internet fails, tech flops, fashion disasters, and food fiascos. Powered by AllWorld SEO, Bloofy delivers daily comedy with sarcasm and wit.',
             canonicalUrl: 'https://bloofy.net/about'
         },
         contact: {
