@@ -272,6 +272,22 @@ function updateMetaTags(category = '', subcategory = '') {
                 'extreme-fitness-crazes-2025': {
                     title: 'Extreme Fitness Crazes 2025: Hilarious Workout Trends',
                     description: 'Bloofy’s funny spin on 2025’s extreme fitness fads will have you giggling at wild workouts!'
+                },
+                'home-workout-hacks-2025': {
+                    title: 'Couch-to-Crunch Hacks: No-Gym Sweat Sessions',
+                    description: 'Bloofy’s hilarious guide to home workout hacks turns your couch into a gym with bands, balls, and epic bloopers. Sweat and smile without leaving home!'
+                },
+                'mind-body-sync-trends-2025': {
+                    title: 'Mind-Bend Workouts: Yoga Meets Mind Games',
+                    description: 'Bloofy’s take on mind-body workouts blends yoga with brain teasers for zen chaos. Laugh at VR trances and puzzle poses with us!'
+                },
+                'recovery-revolution-2025': {
+                    title: 'Post-Sweat Revival: Gadgets & Rituals That Heal',
+                    description: 'Bloofy’s spin on recovery rituals, from infrared pods to cryo sleeves, makes post-workout pampering a comedic comeback. Heal with a chuckle!'
+                },
+                'group-fitness-fiascos-2025': {
+                    title: 'Classroom Chaos: Group Sweat Gone Wild',
+                    description: 'Bloofy’s look at group fitness fiascos, from sweaty Zumba mix-ups to spin-class pileups, brings the laughs to communal sweat sessions!'
                 }
             }
         },
