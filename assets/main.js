@@ -318,6 +318,22 @@ function updateMetaTags(category = '', subcategory = '') {
                 'celebrity-meme-meltdowns-2025': {
                     title: 'Celebrity Meme Meltdowns 2025: Hilarious Star Flops',
                     description: 'Bloofy’s funny spin on 2025’s celebrity meme meltdowns will have you giggling at viral chaos!'
+                },
+                'podcast-pandemonium-2025': {
+                    title: 'Podcast Pandemonium 2025: Earbud Errors Echoing Worldwide',
+                    description: 'Bloofy’s hilarious take on 2025’s podcast blunders will have you giggling. Chuckle at audio mishaps with our wit!'
+                },
+                'superhero-show-satire-2025': {
+                    title: 'Superhero Show Satire 2025: Capes, Kryptonite, and Comic Blunders',
+                    description: 'Bloofy mocks 2025’s superhero satires with humor. Giggle at caped chaos and comic flops!'
+                },
+                'mobile-esports-mayhem-2025': {
+                    title: 'Mobile eSports Mayhem 2025: Pocket Battles with Epic Fails',
+                    description: 'Bloofy’s funny spin on 2025’s mobile eSports craze will make you laugh. Game on with pocket-sized pandemonium!'
+                },
+                'concert-lightshow-lunacy-2025': {
+                    title: 'Concert Lightshow Lunacy 2025: Visuals That Blind and Amaze',
+                    description: 'Bloofy lights up 2025’s concert visual trends with humor. Chuckle at dazzling disasters and stage spectacle fails!'
                 }
             }
         },
