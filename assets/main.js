@@ -368,6 +368,18 @@ function updateMetaTags(category = '', subcategory = '') {
                 'google-spam-update-2025': {
                     title: 'Google August 2025 Spam Update: Funny SEO Chaos and Ranking Laughs',
                     description: 'Bloofy’s witty take on Google’s 2025 spam update will make you giggle. Navigate SEO flops with us!'
+                },
+                'fake-news-fiascos-2025': {
+                    title: 'Fake News Fiascos 2025: When Lies Go Viral and Facts Fight Back',
+                    description: 'Bloofy’s hilarious spin on 2025’s fake news chaos will have you laughing. Chuckle at misinformation mishaps!'
+                },
+                'celebrity-news-catastrophes-2025': {
+                    title: 'Celebrity News Catastrophes 2025: Scandals That Shake the Spotlight',
+                    description: 'Bloofy mocks 2025’s celeb news disasters with wit. Giggle at star-studded slip-ups and scandals!'
+                },
+                'political-pundit-pranks-2025': {
+                    title: 'Political Pundit Pranks 2025: When Analysts Slip on Banana Peels of Bias',
+                    description: 'Bloofy’s funny take on 2025’s political pundit fails will make you laugh. Chuckle at biased blunders!'
                 }
             }
         },
