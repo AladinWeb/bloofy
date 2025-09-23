@@ -118,6 +118,11 @@ body {
     background-size: cover;
     background-position: center;
 }
+.category-item#cat-viral-memes {
+    background-image: url('/images/viral-memes-bg.webp');
+    background-size: cover;
+    background-position: center;
+}
 
 .category-item:hover {
     transform: translateY(-5px);
