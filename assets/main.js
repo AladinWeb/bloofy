@@ -474,6 +474,52 @@ function updateMetaTags(category = '', subcategory = '') {
                 description: 'Bloofy’s hilarious spin on 2025’s drama flops will leave you laughing. Bad scripts, big laughs!'
             }
         }
+    },
+    'viral-memes': {
+        title: 'Viral Meme Madness & Internet Laughs on Bloofy 2025',
+        description: 'Jump into 2025’s meme mania with Bloofy’s hilarious takes. From cats to chaos, laugh at the web’s wildest!',
+        subtopics: {
+            'cat-meme-craze-2025': {
+                title: 'Cat Meme Craze 2025: Feline Frenzy Takes Over',
+                description: 'Bloofy’s funny spin on 2025’s cat meme explosion will have you purring with laughter. Meow at the madness!'
+            },
+            'dance-challenge-memes-2025': {
+                title: 'Dance Challenge Memes 2025: Grooves Gone Wild',
+                description: 'Bloofy grooves through 2025’s dance meme chaos with laughs. Chuckle at the wildest moves!'
+            },
+            'celeb-fail-memes-2025': {
+                title: 'Celeb Fail Memes 2025: Stars Stumble into Laughter',
+                description: 'Bloofy mocks 2025’s celeb fail memes with wit. Giggle at star-studded slip-ups!'
+            },
+            'food-fail-memes-2025': {
+                title: 'Food Fail Memes 2025: Kitchen Chaos Goes Viral',
+                description: 'Bloofy cooks up 2025’s food fail memes with humor. Laugh at culinary catastrophes!'
+            },
+            'tech-glitch-memes-2025': {
+                title: 'Tech Glitch Memes 2025: Gadgets Gone Rogue',
+                description: 'Bloofy’s take on 2025’s tech glitch memes is a riot. Chuckle at gadget gaffes!'
+            },
+            'pet-prank-memes-2025': {
+                title: 'Pet Prank Memes 2025: Animals Steal the Show',
+                description: 'Bloofy’s funny spin on 2025’s pet prank memes will make you laugh. Woof at the antics!'
+            },
+            'weather-meme-madness-2025': {
+                title: 'Weather Meme Madness 2025: Storms of Humor',
+                description: 'Bloofy storms through 2025’s weather memes with laughs. Giggle at nature’s jokes!'
+            },
+            'gaming-gaffe-memes-2025': {
+                title: 'Gaming Gaffe Memes 2025: Epic Fails on Screen',
+                description: 'Bloofy’s hilarious take on 2025’s gaming gaffe memes will have you laughing. Game on!'
+            },
+            'fashion-flop-memes-2025': {
+                title: 'Fashion Flop Memes 2025: Runway Rumbles',
+                description: 'Bloofy struts through 2025’s fashion flop memes with humor. Chuckle at runway wrecks!'
+            },
+            'travel-tumble-memes-2025': {
+                title: 'Travel Tumble Memes 2025: Vacation Vexations',
+                description: 'Bloofy trips into 2025’s travel tumble memes with laughs. Giggle at holiday hilarity!'
+            }
+        }
     }
     };
 
