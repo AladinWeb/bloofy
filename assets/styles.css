@@ -123,6 +123,11 @@ body {
     background-size: cover;
     background-position: center;
 }
+.category-item#cat-pets {
+    background-image: url('/images/pets-bg.webp');
+    background-size: cover;
+    background-position: center;
+}
 
 .category-item:hover {
     transform: translateY(-5px);

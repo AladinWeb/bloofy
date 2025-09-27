@@ -520,7 +520,53 @@ function updateMetaTags(category = '', subcategory = '') {
                 description: 'Bloofy trips into 2025’s travel tumble memes with laughs. Giggle at holiday hilarity!'
             }
         }
-    }
+    },
+    'pets': {
+        title: 'Pet Pals & Furry Funnies on Bloofy 2025',
+        description: 'Dive into 2025’s pet pandemonium with Bloofy’s playful wit. From tricks to tumbles, laugh with your furry friends!',
+        subtopics: {
+            'pet-trick-trends-2025': {
+                title: 'Pet Trick Trends 2025: Furry Feats and Funny Flips',
+                description: 'Bloofy’s hilarious take on 2025’s pet tricks will have you laughing at furry flips and feats!'
+            },
+            'puppy-playtime-memes-2025': {
+                title: 'Puppy Playtime Memes 2025: Adorable Antics Unleashed',
+                description: 'Bloofy unleashes 2025’s puppy playtime memes with humor. Giggle at the cutest chaos!'
+            },
+            'cat-costume-crazes-2025': {
+                title: 'Cat Costume Crazes 2025: Purr-fectly Wild Wardrobes',
+                description: 'Bloofy dresses up 2025’s cat costume craze with laughs. Chuckle at purr-fectly wild outfits!'
+            },
+            'pet-grooming-gaffes-2025': {
+                title: 'Pet Grooming Gaffes 2025: Hairy Hilarity Ensues',
+                description: 'Bloofy shears through 2025’s pet grooming fails with wit. Laugh at hairy hilarity!'
+            },
+            'rescue-pet-stories-2025': {
+                title: 'Rescue Pet Stories 2025: Heartwarming Tails with Twists',
+                description: 'Bloofy spins 2025’s rescue pet tales with humor. Giggle at heartwarming twists!'
+            },
+            'pet-tech-toys-2025': {
+                title: 'Pet Tech Toys 2025: Gadgets That Wow and Flop',
+                description: 'Bloofy toys with 2025’s pet tech gadgets for laughs. Chuckle at wows and flops!'
+            },
+            'bird-behavior-bloopers-2025': {
+                title: 'Bird Behavior Bloopers 2025: Feathered Fails Fly High',
+                description: 'Bloofy flocks to 2025’s bird bloopers with humor. Laugh at feathered fails!'
+            },
+            'hamster-havoc-memes-2025': {
+                title: 'Hamster Havoc Memes 2025: Tiny Terrors Take Over',
+                description: 'Bloofy scurries through 2025’s hamster havoc with laughs. Giggle at tiny terrors!'
+            },
+            'fish-tank-fails-2025': {
+                title: 'Fish Tank Fails 2025: Aquatic Adventures Gone Awry',
+                description: 'Bloofy dives into 2025’s fish tank flops with wit. Chuckle at aquatic adventures!'
+            },
+            'pet-party-pandemonium-2025': {
+                title: 'Pet Party Pandemonium 2025: Birthday Bash Blunders',
+                description: 'Bloofy parties with 2025’s pet bash fails for laughs. Giggle at birthday blunders!'
+            }
+        }
+    },
     };
 
     let title = metaData.main.title;
